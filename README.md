@@ -16,5 +16,4 @@ New technologies/approaches:
 While none of the concepts or technologies were new to me, I had not programmed in Java in a two years and it took some time to re-acclimate to Java-specifc syntax and methodology. 
 
 Solution:
-Player 1 Wins: 376 times
-Player 2 Wins: 624 times
+Player 1 wins: 376 times, Player 2 wins: 624 times
