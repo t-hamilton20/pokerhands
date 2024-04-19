@@ -136,12 +136,14 @@ public class Hand implements Comparable<Hand> {
     }
 
     public int compareTo(Hand otherHand){
-        if (this.getHandStrength() != otherHand.getHandStrength()){ // hands are not the same
-            return Integer.compare(this.getHandStrength(), otherHand.getHandStrength());
+        int handStrength = this.getHandStrength();
+        int otherHandStrength = otherHand.getHandStrength();
+
+        if (handStrength != otherHandStrength){ // hands are not the same
+            return Integer.compare(handStrength, otherHandStrength);
         }
 
         else { // hands are the same, must check highest cards
-            int handStrength = this.getHandStrength();
 
             // do not need to check royal flush, only one player can have it at once
             // default compare high cards
