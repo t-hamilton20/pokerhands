@@ -14,7 +14,7 @@ public class Card implements Comparable<Card> {
         this.suit = input.charAt(1);
     }
 
-    private static final HashMap<Character, Integer> symbolToNumeric;
+    public static final HashMap<Character, Integer> symbolToNumeric;
     static {
         symbolToNumeric = new HashMap<Character, Integer>();
         symbolToNumeric.put('2', 2);
